@@ -1,0 +1,50 @@
+name: fruit_hit_master
+description: A casual 2D fruit-shooting game built with Flutter and Flame.
+publish_to: 'none'
+version: 1.0.0+5
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+  flutter: ">=3.16.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.18.0
+  flame_audio: ^2.1.0
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.5.5
+  url_launcher: ^6.3.2
+  google_mobile_ads: ^9.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # --- Fruit / vegetable artwork used across the 50 levels ---
+    - assets/images/fruits/pear.png
+    - assets/images/fruits/apple.png
+    - assets/images/fruits/watermelon.png
+    - assets/images/fruits/lettuce.png
+    - assets/images/fruits/banana.png
+    - assets/images/fruits/strawberry.png
+    - assets/images/fruits/orange.png
+    - assets/images/fruits/grape.png
+    - assets/images/fruits/pineapple.png
+    - assets/images/fruits/mango.png
+    - assets/images/fruits/cherry.png
+    - assets/images/fruits/eggplant.png
+    - assets/images/fruits/pepper.png
+    - assets/images/fruits/carrot.png
+    - assets/images/fruits/tomato.png
+    - assets/images/fruits/cucumber.png
+    # --- Audio ---
+    - assets/audio/cik.mp3
+    - assets/audio/1_missile_launch.mp3
+    - assets/audio/3_impact_hit.mp3
+    - assets/audio/4_arrow_release.mp3
